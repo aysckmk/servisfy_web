@@ -18,8 +18,8 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+    font-family: "Open Sans", sans-serif;
+    style ="background-image: img src=("../Dashboard/images/arkaplan.jpg");
 }
 
 a {
