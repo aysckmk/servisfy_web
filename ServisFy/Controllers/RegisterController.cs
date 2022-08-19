@@ -2,11 +2,11 @@
 
 namespace ServisFy.Controllers
 {
-    public class RegisterController : Controller
-    {
-        public IActionResult Register()
-        {
-            return View();
-        }
-    }
+	public class RegisterController : Controller
+	{
+		public IActionResult Register()
+		{
+			return View();
+		}
+	}
 }
