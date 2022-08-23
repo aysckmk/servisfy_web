@@ -2,7 +2,7 @@
 	Layout = null;
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
 	<meta charset="utf-8">
@@ -18,12 +18,12 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-	<link href="~/Dashboard/vendor/aos/aos.css" rel="stylesheet">
+	<link href="~vendor/aos/aos.css" rel="stylesheet">
 	<link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="~/Dashboard/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-	<link href="~/Dashboard/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-	<link href="~/Dashboard/vendor/remixicon/remixicon.css" rel="stylesheet">
-	<link href="~/Dashboard/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+	<link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="~/vendor/remixicon/remixicon.css" rel="stylesheet">
+	<link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 	<link href="~/css/style.css" rel="stylesheet">
 
 </head>
@@ -33,7 +33,7 @@
 	<header id="header" class="header fixed-top">
 		<div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-			<a href="@Url.Action("_HomeLayout","Shared")" class="logo d-flex align-items-center">
+			<a href="@Url.Action("Index","Home")" class="logo d-flex align-items-center">
 				<img src="~/Dashboard/images/logo.png" alt="">
 
 			</a>
@@ -42,7 +42,7 @@
 				<ul>
 					<li><a class="nav-link scrollto active" href="#hero">Anasayfa</a></li>
 					<li><a class="nav-link scrollto" href="#about">Hakkımızda</a></li>
-					<li><a class="nav-link scrollto" href="#services">Hizmetlerimiz</a></li>
+					<li><a class="nav-link scrollto" href="#features">Hizmetlerimiz</a></li>
 					<li><a class="nav-link scrollto" href="#contact">İletişim</a></li>
 					<li><a class="getstarted scrollto" href="@Url.Action("Login","Auth")">Üye Girişi</a></li>
 				</ul>
@@ -50,12 +50,7 @@
 			</nav>
 		</div>
 	</header>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
+	
 	 @RenderBody()
 
 	<footer>

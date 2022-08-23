@@ -132,7 +132,6 @@ C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Vie
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Ayarlar\Ayarlar.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Dash\Dash.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Logout\CikisYap.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\OgrNerede\OgrNrd.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Servis\Servis.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Shared\_DashboardLayout.cshtml.g.cs
@@ -234,5 +233,7 @@ C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\ServisFy.
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\ref\ServisFy.dll
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yonetim\Yonetim.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Bildirim\Bildirimler.cshtml.g.cs
-C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yeniservis\New.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Register\Register.cshtml.g.cs
+C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yeniservis\New.cshtml.g.cs
+C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yenisurucu\Yenisurucu.cshtml.g.cs
+C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Okuk\Okul.cshtml.g.cs

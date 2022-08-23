@@ -2,7 +2,7 @@
 	Layout = null;
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
 	<!-- Required meta tags -->
@@ -54,6 +54,67 @@
 				</ul>
 
 				<ul class="navbar-nav navbar-nav-right">
+					<li class="nav-item dropdown">
+						<a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href=# data-toggle="dropdown">
+							<i class="icon-bell mx-0"></i>
+							<span class="count"></span>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+							<p class="mb-0 font-weight-normal float-left dropdown-header">
+								<strong>Bildirimler</strong>
+							</p>
+
+							<a href="" class="dropdown-item preview-item">
+								<img src="~/png/ogrenci.png" alt="Öğrenci" width="40">
+								<div class="preview-item-content">
+									<h6 class="preview-subject font-weight-normal">Öğrenciniz servisten indi.</h6>
+									<p class="font-weight-light small-text mb-0 text-muted">
+										15 dakika önce
+									</p>
+								</div>
+							</a>
+							<a href="" class="dropdown-item preview-item">
+								<img src="~/png/ogrenci.png" alt="Öğrenci" width="40">
+
+								<div class="preview-item-content">
+									<h6 class="preview-subject font-weight-normal">Öğrenciniz servise bindi.</h6>
+									<p class="font-weight-light small-text mb-0 text-muted">
+										50 dakika önce
+									</p>
+								</div>
+
+							</a>
+							<a href="" class="dropdown-item preview-item">
+								<img src="~/png/Servis.png" alt="Servis" width="40">
+								<div class="preview-item-content">
+									<h6 class="preview-subject font-weight-normal">
+										Araç 10 dakika içinde evinize ulaşacaktır.
+									</h6>
+									<p class="font-weight-light small-text mb-0 text-muted">
+										1 saat önce
+									</p>
+								</div>
+							</a>
+							<a href="" class="dropdown-item preview-item">
+								<img src="~/png/binmedi.png" alt="Binmedi" width="40">
+								<div class="preview-item-content">
+									<h6 class="preview-subject font-weight-normal">Öğrenciniz servise binmedi.</h6>
+									<p class="font-weight-light small-text mb-0 text-muted">
+										1 gün önce
+									</p>
+								</div>
+							</a>
+
+							<a href="@Url.Action("Bildirimler","Bildirim")" class="dropdown-item text-center">
+								<b>
+									<ins>
+										Tüm bildirimleri gör
+									</ins>
+								</b>
+							</a>
+
+						</div>
+					</li>
 
 					<li class="nav-item nav-profile dropdown">
 						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
@@ -71,11 +132,12 @@
 						</div>
 					</li>
 				</ul>
+
 			</div>
-		
+
 		</nav>
-			
-			
+
+
 		<!-- partial -->
 		<div class="container-fluid page-body-wrapper">
 			<!-- partial:partials/_settings-panel.html -->
@@ -97,7 +159,7 @@
 							</ul>
 						</div>
 					</li>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" data-toggle="collapse" href="#ui-basic2" aria-expanded="false" aria-controls="ui-basic">
 							<i class="icon-layout menu-icon"></i>

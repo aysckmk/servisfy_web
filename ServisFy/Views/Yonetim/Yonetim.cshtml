@@ -3,7 +3,7 @@
 	Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 
 </head>
@@ -11,14 +11,37 @@
 <!-- Sadooooooooo-->
 <body>
 
-	<a href="@Url.Action("New","Yeniservis")">
-		<button style="background-color:ivory;color:black;width:100%;"> Yeni Servis Ekle <button>
-	</a>
-
 	<div class="container-fluid pt-4 px-4">
 		<div class="bg-light text-center rounded p-4">
 			<div class="d-flex align-items-center justify-content-between mb-4">
-				<h6 class="mb-0"><b>Servis</b></h6>
+				<h6 class="mb-0"><b>Servis Yönetim Paneli</b></h6>
+
+
+				<div class="btn-group">
+					<a href="@Url.Action("New","Yeniservis")">
+						<button class="btn btn-sm btn-primary pe-5">
+							Servis Ekle
+						</button>&nbsp;&nbsp;&nbsp;
+					</a>
+
+					<a href="@Url.Action("Yenisurucu","Yenisurucu")">
+
+						<button class="btn btn-sm btn-primary pe-5">
+							Sürücü Ekle
+						</button>&nbsp;&nbsp;&nbsp;
+					</a>
+					<a href="@Url.Action("Okul","Okuk")">
+
+						<button class="btn btn-sm btn-primary pe-5">
+							Okul Ekle
+						</button>
+						
+					</a>
+
+
+
+				</div>
+
 			</div>
 			<div class="table-responsive">
 				<table class="table text-start align-middle table-bordered table-hover mb-0">

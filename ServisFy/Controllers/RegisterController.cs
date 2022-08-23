@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ServisFy.Models.Auth;
 
 namespace ServisFy.Controllers
 {
@@ -8,5 +9,13 @@ namespace ServisFy.Controllers
 		{
 			return View();
 		}
+
+        [HttpPost]
+		public IActionResult Register(RegisterDto register)
+        {
+			// Apiye yollama işlemleri vs.  Session Araştırılacak
+
+			return RedirectToAction("Login", "Auth");
+        }
 	}
 }
