@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ServisFy.Models.Auth;
 
 namespace ServisFy.Controllers
 {
@@ -7,6 +8,12 @@ namespace ServisFy.Controllers
         public IActionResult Yenisurucu()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Yenisurucu(YeniSurucuDto yeniSurucu)
+        {
+
+            return RedirectToAction("Yonetim", "Yonetim");
         }
     }
 }
