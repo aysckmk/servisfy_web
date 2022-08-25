@@ -39,16 +39,21 @@
 							<h4>Yeni Sürücü Ekle</h4>
 							@using (Html.BeginForm())
 							{
-								<div class="form-group">
-									@Html.TextBoxFor(x=>x.plaka,new {@class="form-control form-control-lg",@placeholder="Servis Plakası", @required="required"})
-
-								</div>
+								
 								<div class="form-group">
 									@Html.TextBoxFor(x=>x.sr_adi,new {@class="form-control form-control-lg",@placeholder="Sürücü Adı", @required="required"})
 
 								</div>
 								<div class="form-group">
 									@Html.TextBoxFor(x=>x.sr_soyadi,new {@class="form-control form-control-lg",@placeholder="Sürücü Soyadı", @required="required"})
+
+								</div>
+								<div class="form-group">
+									@Html.TextBoxFor(x=>x.sr_tc,new {@class="form-control form-control-lg",@placeholder="TC Kimlik No", @required="required"})
+
+								</div>
+								<div class="form-group">
+									@Html.TextBoxFor(x=>x.tel_no,new {@class="form-control form-control-lg",@placeholder="Telefon No", @required="required"})
 
 								</div>
 

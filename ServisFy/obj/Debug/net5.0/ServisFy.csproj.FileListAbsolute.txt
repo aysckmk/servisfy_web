@@ -234,6 +234,6 @@ C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\ref\Servi
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yonetim\Yonetim.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Bildirim\Bildirimler.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Register\Register.cshtml.g.cs
-C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yeniservis\New.cshtml.g.cs
 C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yenisurucu\Yenisurucu.cshtml.g.cs
-C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Okuk\Okul.cshtml.g.cs
+C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Okul\Okul.cshtml.g.cs
+C:\Users\aysuc\Documents\GitHub\servisfy_web\ServisFy\obj\Debug\net5.0\Razor\Views\Yeniservis\Yeniservis.cshtml.g.cs

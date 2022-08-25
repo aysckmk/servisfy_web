@@ -1,8 +1,61 @@
-﻿
-@{
-    ViewData["Title"] = "Ayarlar";
-    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+﻿@{
+	ViewData["Title"] = "Ayarlar";
+	Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
+<!DOCTYPE html>
+<html lang="tr">
 
-<h1>Ayarlar</h1>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ayarlar</title>
+</head>
 
+<body>
+	<div class="wrapper bg-white mt-sm-5">
+		<h4 class="pb-4 border-bottom">Hesap Ayarları</h4>
+		<div class="d-flex align-items-start py-3 border-bottom">
+			<img src="~/Dashboard/images/faces/face27.jpg" class="img" alt="" width="300">
+			<div class="pl-sm-4 pl-2" id="img-section">
+				<br>
+
+				<b>Profil Resmi</b>
+
+				<br>
+				<br>
+				<button class="btn button border"><b>Yükle</b></button>
+			</div>
+		</div>
+		<div class="py-2">
+			<div class="row py-2">
+				<div class="col-md-6">
+					<label for="firstname">Ad</label>
+					<input type="text" class="bg-light form-control">
+				</div>
+				<div class="col-md-6 pt-md-0 pt-3">
+					<label for="lastname">Soyad</label>
+					<input type="text" class="bg-light form-control">
+				</div>
+			</div>
+			<div class="row py-2">
+				<div class="col-md-6">
+					<label for="email">Email Adresi</label>
+					<input type="text" class="bg-light form-control">
+				</div>
+				<div class="col-md-6 pt-md-0 pt-3">
+					<label for="phone">Telefon Numarası</label>
+					<input type="tel" class="bg-light form-control">
+				</div>
+			</div>
+
+			<div class="py-3 pb-4 border-bottom">
+				<a href="@Url.Action("Dash","Dash")" class="btn btn-primary mr-3">Kaydet </a>
+				<a href="@Url.Action("Dash","Dash")" class="btn border button">İptal </a>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
