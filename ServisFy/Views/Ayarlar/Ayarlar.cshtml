@@ -2,6 +2,8 @@
 	ViewData["Title"] = "Ayarlar";
 	Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
+@model ServisFy.Models.Auth.AyarlarDto
+
 <!DOCTYPE html>
 <html lang="tr">
 
@@ -27,31 +29,38 @@
 				<button class="btn button border"><b>Yükle</b></button>
 			</div>
 		</div>
-		<div class="py-2">
-			<div class="row py-2">
-				<div class="col-md-6">
-					<label for="firstname">Ad</label>
-					<input type="text" class="bg-light form-control">
-				</div>
-				<div class="col-md-6 pt-md-0 pt-3">
-					<label for="lastname">Soyad</label>
-					<input type="text" class="bg-light form-control">
-				</div>
-			</div>
-			<div class="row py-2">
-				<div class="col-md-6">
-					<label for="email">Email Adresi</label>
-					<input type="text" class="bg-light form-control">
-				</div>
-				<div class="col-md-6 pt-md-0 pt-3">
-					<label for="phone">Telefon Numarası</label>
-					<input type="tel" class="bg-light form-control">
-				</div>
-			</div>
+		<div class="py-6">
+			<div class="row py-6">
+				@using (Html.BeginForm())
+				{
+					<div class="form-group">
+						@Html.TextBoxFor(x=>x.k_adi,new {@class="form-control form-control-lg",@placeholder="Adınız", @required="required"})
 
-			<div class="py-3 pb-4 border-bottom">
-				<a href="@Url.Action("Dash","Dash")" class="btn btn-primary mr-3">Kaydet </a>
-				<a href="@Url.Action("Dash","Dash")" class="btn border button">İptal </a>
+					</div>
+					<div class="form-group">
+						@Html.TextBoxFor(x=>x.k_soyadi,new {@class="form-control form-control-lg",@placeholder="Soyadınız", @required="required"})
+					</div>
+
+					<div class="form-group">
+						@Html.TextBoxFor(x=>x.k_mail,new {@class="form-control form-control-lg",@placeholder="E-Posta",@type="email", @required="required"})
+
+					</div>
+					<div class="form-group">
+						@Html.TextBoxFor(x=>x.tel_no,new {@class="form-control form-control-lg",@placeholder="Tel No", @required="required"})
+
+					</div>
+
+
+
+
+
+
+					<div class="py-3 pb-4 border-bottom">
+						<input type="submit" formmethod="post" formaction="/Dash/Dash" value="Kaydet" class="btn btn-primary mr-3" />
+
+						<a href="@Url.Action("Dash","Dash")" class="btn border button">İptal </a>
+					</div>
+				}
 			</div>
 
 		</div>
