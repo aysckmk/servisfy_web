@@ -8,7 +8,7 @@
           {
             data: [200, 480, 700, 600, 620, 350, 380, 350, 850, "600", "650", "350", "590", "350", "620", "500", "990", "780", "650"],
             borderColor: [
-              '#ff3702'
+              '#2794e3'
             ],
             borderWidth: 2,
             fill: false,
@@ -96,7 +96,7 @@
           {
             data: [200, 480, 700, 600, 620, 350, 380, 350, 850, "600", "650", "350", "590", "350", "620", "500", "990", "780", "650"],
             borderColor: [
-              '#ff3702'
+              '#2794e3'
             ],
             borderWidth: 2,
             fill: false,
@@ -191,7 +191,7 @@
             {
               label: 'Online Sales',
               data: [400, 340, 550, 480, 170],
-              backgroundColor: '#ff3702'
+              backgroundColor: '#2794e3'
             }
           ]
         },
@@ -266,7 +266,7 @@
             {
               label: 'Online Sales',
               data: [400, 340, 550, 480, 170],
-              backgroundColor: '#ff3702'
+              backgroundColor: '#2794e3'
             }
           ]
         },
@@ -333,7 +333,7 @@
         datasets: [{
             data: [100, 50, 50],
             backgroundColor: [
-               "#ff3702","#FFC100", "#248AFD",
+               "#2794e3","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }
@@ -406,7 +406,7 @@
         datasets: [{
             data: [100, 50, 50],
             backgroundColor: [
-               "#ff3702","#FFC100", "#248AFD",
+               "#2794e3","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }
@@ -480,7 +480,7 @@
         datasets: [{
             data: [60, 70, 70],
             backgroundColor: [
-              "#ff3702","#FFC100", "#248AFD",
+              "#2794e3","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }
@@ -553,7 +553,7 @@
         datasets: [{
             data: [60, 70, 70],
             backgroundColor: [
-              "#ff3702","#FFC100", "#248AFD",
+              "#2794e3","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }
