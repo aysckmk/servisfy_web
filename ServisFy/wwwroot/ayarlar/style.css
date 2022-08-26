@@ -1,5 +1,4 @@
-﻿
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -71,7 +70,6 @@ select {
     border-radius: 10px;
     height: 40px;
     padding: 5px 10px;
-    /* -webkit-appearance: none; */
 }
 
     select:focus {
